@@ -69,6 +69,13 @@ const r = await check("example.com.tw");
 console.log(r.score, r.level, r.signals.map(s => s.label));
 ```
 
+
+### 4. WordPress 外掛版
+
+想直接放在自己的 WordPress 網站上，可以用「澄熠 LUCEVO・AI 工具箱」外掛：上傳、啟用就會自動建立 `/ai-automation-check/` 工具頁（AI 自動化檢測），頁面可在 Elementor 逐區塊改字，並內建 Rank Math SEO 與 schema。同一支外掛也包含 AI 自動化檢測、電子報範本產生器、電子報點擊檢查三個工具，在「設定 → LUCEVO 工具箱」分三個分頁各自開關與設定。
+
+線上版：[AI 自動化檢測](https://ai.hostswp.com/ai-automation-check/)
+
 ## 分數怎麼算
 
 基本分 20 分，每找到一個可自動化的流程加 10 分，最高 100 分。
