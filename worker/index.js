@@ -42,7 +42,7 @@ footer{color:var(--mute);font-size:13px;margin-top:32px}footer a{color:inherit}
 <h1>AI 自動化潛力檢測</h1><p class="sub">輸入公司官網，找出網站上看得到、適合交給 AI 自動處理的流程。</p>
 <form method="get"><input name="url" value="${esc(q)}" placeholder="例如 example.com.tw" required aria-label="官網網址"><button>開始檢測</button></form>
 ${body}
-<footer>開源專案 v${VERSION}・只讀取首頁公開內容、不儲存任何資料・<a href="https://github.com/yufan-code/ai-automation-checker" rel="noopener">GitHub</a>・由 <a href="https://ai.hostswp.com/" rel="noopener">澄熠 LUCEVO</a> 製作</footer>
+<footer>開源專案 v${VERSION}・只讀取首頁公開內容、不儲存任何資料・<a href="https://github.com/ymlin520/ai-automation-checker" rel="noopener">GitHub</a>・由 <a href="https://ai.hostswp.com/" rel="noopener">澄熠 LUCEVO</a> 製作</footer>
 </div></body></html>`;
 }
 

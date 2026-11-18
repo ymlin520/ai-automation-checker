@@ -36,7 +36,7 @@
 ### 1. 命令列（Node.js 18 以上，不用安裝任何套件）
 
 ```bash
-git clone https://github.com/yufan-code/ai-automation-checker.git
+git clone https://github.com/ymlin520/ai-automation-checker.git
 cd ai-automation-checker
 node bin/cli.js example.com.tw
 ```
