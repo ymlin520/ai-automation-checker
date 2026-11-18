@@ -1,0 +1,17 @@
+{
+  "name": "ai-automation-checker",
+  "version": "1.0.0",
+  "description": "AI 自動化潛力檢測：輸入公司官網，找出詢價表單、訂單、預約、LINE 客服、徵才等可以用 AI 自動化的流程。",
+  "type": "module",
+  "bin": { "ai-automation-checker": "bin/cli.js" },
+  "files": ["bin", "src"],
+  "scripts": {
+    "check": "node bin/cli.js",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["ai", "automation", "workflow", "ai-automation", "AI自動化", "AI導入", "taiwan", "cloudflare-workers"],
+  "homepage": "https://ai.hostswp.com/ai-adoption/",
+  "license": "MIT"
+}
